@@ -1,0 +1,114 @@
+body{
+    background-color: #041562 !important;
+}
+
+#navbar-section{
+    padding: 0 6%;
+}
+
+.info-cont{
+    padding: 5%;
+    padding-left: 4% !important;
+}
+
+.info-heading{
+    font-family: "Montserrat",sans-serif;
+    color:white;
+    padding-left: 3%;
+}
+
+#info-section{
+    padding-right: 20% !important;
+}
+
+.search-box{
+    width: 100%;
+    background-color: #041562;
+    border: hidden;
+    border-bottom: 2px solid white;
+    padding-top: 5%;
+    outline:none;
+}
+
+.search-box[type=text]{
+    font-family: "Monteserrat-light",sans-serif;
+    font-size: 2rem;
+    color: white;
+}
+
+.search-box::-webkit-input-placeholder{
+    font-family: "Montserrat-light",sans-serif;
+    font-size: 2rem;
+    color: white;
+}
+
+.search-info{
+    padding-top:2%; 
+}
+
+
+.card-area{
+    padding-right: 10%;
+}
+
+.card-cont{
+    margin-left: 0 !important;
+    padding-top: 3%;
+}
+
+@media (max-width: 500px){ 
+    .search-button{
+    width: 100% !important;
+    }
+    .card{
+        text-align: center;
+    }
+    .info-heading{
+        padding-left: 12% !important;
+    }
+    .search-area{
+        padding-left: 20% !important;
+    }
+    .search-box{
+        width: 100%;
+    }
+    #card-section,#info-section{
+        padding-right: 0;
+    }
+    
+
+}
+
+#Card-heading,#temp,#description{
+    font-family: 'Ubuntu',serif;
+    
+}
+#Card-heading{
+    font-weight: 800;
+    font-size: 2rem;
+}
+
+#card-section{
+    padding-bottom: 5%;
+    padding-left: 5%;
+}
+
+#temp{
+    font-size: 1.5rem;
+    padding:2% 4%;
+}
+
+
+#description{
+    font-size: 1.5rem;
+    padding:2% 4%;
+}
+
+.search-area{
+    padding-left: 3%;
+}
+
+.bi{
+    font-size: 60px;
+    padding: 2% 4%;
+}
