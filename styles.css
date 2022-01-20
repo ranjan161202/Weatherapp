@@ -1,0 +1,170 @@
+body{
+    background-image: url('pexels-pixabay-76969.jpg');
+}
+
+#navbar-section{
+    padding: 0 6%;
+}
+
+.info-cont{
+    padding: 5%;
+    padding-left: 4% !important;
+}
+
+.info-heading{
+    font-family: "Montserrat",sans-serif;
+    color:white;
+    padding-left: 3%;
+}
+
+#info-section{
+    padding-right: 20% !important;
+}
+
+.search-box{
+    width: 100%;
+    background-color: transparent;
+    border: hidden;
+    border-bottom: 2px solid white;
+    padding-top: 5%;
+    outline:none;
+}
+
+.search-box[type=text]{
+    font-family: "Monteserrat-light",sans-serif;
+    font-size: 2rem;
+    color: white;
+}
+
+.search-box::-webkit-input-placeholder{
+    font-family: "Montserrat-light",sans-serif;
+    font-size: 2rem;
+    color: white;
+}
+
+.search-info{
+    padding-top:2%; 
+}
+
+
+.card-area{
+    padding-right: 10%;
+}
+
+.card-cont{
+    margin-left: 0 !important;
+    padding-top: 3%;
+}
+
+/* The flip card container - set the width and height to whatever you want. We have added the border property to demonstrate that the flip itself goes out of the box on hover (remove perspective if you don't want the 3D effect */
+.flip-card {
+    background-color: transparent;
+    width: 300px;
+    height: 300px;
+    border: none;
+    perspective: 1000px; /* Remove this if you don't want the 3D effect */
+  }
+  
+  /* This container is needed to position the front and back side */
+  .flip-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+  }
+  
+  /* Do an horizontal flip when you move the mouse over the flip box container */
+  .flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+  }
+  
+  /* Position the front and back side */
+  .flip-card-front, .flip-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden; /* Safari */
+    backface-visibility: hidden;
+  }
+  
+  /* Style the front side (fallback if image is missing) */
+  .flip-card-front {
+    background-color: white;
+    color: black;
+  }
+  
+  /* Style the back side */
+  .flip-card-back {
+    background-color: white;
+    color: black;
+    transform: rotateY(180deg);
+    font-family: 'Ubuntu',serif;
+    font-size: 1rem;
+    font-weight: bold;
+  }
+
+  .flip-card-back h4{
+      padding: 3%;
+  }
+
+@media (max-width: 500px){ 
+    .search-button{
+    width: 100% !important;
+    }
+    .card{
+        text-align: center !important;
+    }
+    .info-heading{
+        text-align: center;
+        padding-left: 12%;
+    }
+    .search-area{
+        padding-left: 20% !important;
+    }
+    .search-box{
+        width: 100%;
+    }
+    #card-section,#info-section{
+        padding-right: 0;
+    }
+    .info-cont{
+        margin-left: 5%;
+    }
+
+}
+
+#Card-heading,#temp,#description{
+    font-family: 'Ubuntu',serif;
+    
+}
+#Card-heading{
+    font-weight: 800;
+    font-size: 2rem;
+}
+
+#card-section{
+    padding-bottom: 5%;
+    padding-left: 5%;
+}
+
+#temp{
+    font-size: 1.5rem;
+    padding:2% 4%;
+}
+
+
+#description{
+    font-size: 1.5rem;
+    padding:2% 4%;
+}
+
+.search-area{
+    padding-left: 3%;
+}
+
+.bi{
+    font-size: 60px;
+    padding: 2% 4%;
+}
