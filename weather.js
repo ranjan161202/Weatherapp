@@ -54,9 +54,9 @@ function sendrequest(){
                 document.getElementById("pressure").innerHTML  = "Pressure: ";
                 document.getElementById("wind-speed").innerHTML  = "Wind-Speed: ";
             }
-            document.getElementById("temp").innerHTML = data.main.temp+'K/'+(data.main.temp-273)+'°C';
-            document.getElementById("temp-max").innerHTML += data.main.temp_max+'K/'+(data.main.temp-273)+'°C';
-            document.getElementById("temp-min").innerHTML += data.main.temp_min+'K/'+(data.main.temp-273)+'°C';
+            document.getElementById("temp").innerHTML = data.main.temp+'K/'+(data.main.temp-273).toFixed(2)+'°C';
+            document.getElementById("temp-max").innerHTML += data.main.temp_max+'K/'+(data.main.temp-273).toFixed(2)+'°C';
+            document.getElementById("temp-min").innerHTML += data.main.temp_min+'K/'+(data.main.temp-273).toFixed(2)+'°C';
             document.getElementById("pressure").innerHTML += data.main.pressure+ "mbar";
             document.getElementById("wind-speed").innerHTML += data.wind.speed+ "Km/h";
             
